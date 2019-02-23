@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Lisk Timestamp Converter</title>
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h1 id='status' class="display-6">Lisk Timestamp Converter</h1>
+    </div>
+    <div id="innerbody">
+        <form>
+            <label for="radlisk" class="col-form-label">Lisk Timestamp</label>
+            <input type="radio" class="col-sm-2" id="radlisk" name="nodetype" checked onclick="showliskbox()" value="lisk">
+            <label for="radunix" class="col-form-label">Unix Timestamp</label>
+            <input type="radio" class="col-sm-2" id="radunix" name="nodetype" onclick="showunixbox()" value="unix">
+            <label for="raddatetime" class="col-form-label">Date Time</label>
+            <input type="radio" class="col-sm-2" id="raddatetime" name="nodetype" onclick="showdatetime()" value="datetime">
+            </br>
+            </br>
+            <div class="form-group row">
+                <label id='timestamplabel' class="col-sm-3">Lisk Timestamp:</label>
+                <input class="col-sm-4" style="display:block" id="timestamp" type="number" value="0">
+                <input class="col-sm-4" style="display:none" id="datetime" type="datetime-local" value="">
+            </div>
+            </br>
+            <button class="btn btn-success btn-lg" onclick="convert()" type="button">Convert</button>
+        </form>
+        <br />
+        <br />
+        <div id="data">hihihoihoiho</div>
+        <br />
+    </div>
+    <div class="card-footer text-white bg-dark text-center py-3 blue">
+        Developed by <a href="https://explorer.lisk.io/delegate/15297866638783057016L">TonyT908</a> - Source Code available at <a href="https://github.com/MorinelloA/Missed-Block-Alarm-Lite">Github.com</a>
+    </div>
+</body>
+</html>
