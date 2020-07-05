@@ -2,4 +2,4 @@
 
 Simple Lisk Timestamp Converter
 
-Hosted at http://tools.tonyt908.com/timestampconverter/index.html
+Hosted at https://morinelloa.github.io/lisk-timestamp-converter/
