@@ -1,4 +1,4 @@
-# Timestamp-Converter
+# Lisk Timestamp Converter
 
 Simple Lisk Timestamp Converter
 
